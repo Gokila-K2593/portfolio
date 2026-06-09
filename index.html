@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gokila K | Full-Stack Developer | Portfolio</title>
+    <meta name="description" content="Portfolio of Gokila K, a Full-Stack Developer specializing in Next.js, FastAPI, PostgreSQL, and clean web architecture. View projects, experience, and contact details.">
+    <!-- Google Fonts: Outfit (headings) & Inter (body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+    <!-- Scroll Progress Bar -->
+    <div id="scroll-progress" class="scroll-progress-bar"></div>
+
+    <!-- Header / Navbar -->
+    <header class="main-header" id="header">
+        <div class="container header-container">
+            <a href="#" class="logo">Gokila<span>.K</span></a>
+            
+            <nav class="navbar" id="navbar">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#certifications" class="nav-link">Certifications</a>
+                <a href="#collaborate" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="header-actions">
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle light/dark theme">
+                    <i class="fa-solid fa-moon"></i>
+                </button>
+                <button class="mobile-nav-toggle" id="mobile-toggle" aria-label="Toggle mobile menu">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-background-glow"></div>
+            <div class="container hero-container">
+                <div class="hero-content reveal-on-scroll">
+                    <div class="badge-accent">Available for Opportunities</div>
+                    <h1 class="hero-title">Gokila K</h1>
+                    <p class="hero-subtitle">Full-Stack Developer</p>
+                    <p class="hero-description">
+                        Building robust and scalable backend APIs using <strong class="tech-highlight">FastAPI</strong> &amp; <strong class="tech-highlight">Python</strong>, combined with highly responsive and interactive frontend experiences using <strong class="tech-highlight">Next.js</strong> &amp; <strong class="tech-highlight">React</strong>.
+                    </p>
+                    <div class="hero-actions-btn">
+                        <a href="#projects" class="btn btn-primary">View My Work <i class="fa-solid fa-arrow-down-long"></i></a>
+                        <a href="#collaborate" class="btn btn-secondary">Let's Collaborate <i class="fa-regular fa-comments"></i></a>
+                    </div>
+                </div>
+                <div class="hero-visual reveal-on-scroll">
+                    <div class="avatar-glow-ring">
+                        <div class="avatar-image-container">
+                            <img src="assets/avatar.png" alt="Gokila K Avatar Illustration" class="avatar-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <h2 class="section-title reveal-on-scroll">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-text-container reveal-on-scroll">
+                        <p class="lead-text">
+                            Motivated Computer Science graduate and Full-Stack Developer with hands-on experience building and deploying production-ready web applications.
+                        </p>
+                        <p>
+                            I design robust backend structures, formulate clean database schemas, and stitch together polished, interactive interfaces. My approach is centered around clean architecture, scalability, and solving real-world challenges through optimized logic.
+                        </p>
+                        <div class="about-stats-grid">
+                            <div class="stat-card">
+                                <span class="stat-number">8.0</span>
+                                <span class="stat-label">B.E. CSE CGPA</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-number">2+</span>
+                                <span class="stat-label">Internships</span>
+                            </div>
+                            <div class="stat-card">
+                                <span class="stat-number">5+</span>
+                                <span class="stat-label">Core Tech Stacks</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-details-container reveal-on-scroll">
+                        <div class="card glass-card info-card">
+                            <h3>Quick Profile</h3>
+                            <ul class="info-list">
+                                <li>
+                                    <span class="info-key"><i class="fa-solid fa-graduation-cap"></i> Degree:</span>
+                                    <span class="info-value">B.E. Computer Science &amp; Engineering</span>
+                                </li>
+                                <li>
+                                    <span class="info-key"><i class="fa-solid fa-university"></i> Institution:</span>
+                                    <span class="info-value">University College of Engineering, Nagercoil</span>
+                                </li>
+                                <li>
+                                    <span class="info-key"><i class="fa-solid fa-location-dot"></i> Location:</span>
+                                    <span class="info-value">Kanyakumari, Tamil Nadu, India</span>
+                                </li>
+                                <li>
+                                    <span class="info-key"><i class="fa-solid fa-language"></i> Languages:</span>
+                                    <span class="info-value">Tamil, English</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section section-padding">
+            <div class="container">
+                <h2 class="section-title reveal-on-scroll">Work Experience</h2>
+                <div class="timeline">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item reveal-on-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">Aug 2025 — Present</div>
+                        <div class="card glass-card timeline-card">
+                            <div class="timeline-header">
+                                <h3 class="role">Backend Developer</h3>
+                                <h4 class="company"><i class="fa-solid fa-building"></i> Wizi Technologies — Nagercoil</h4>
+                            </div>
+                            <ul class="timeline-bullets">
+                                <li>Develop and maintain backend APIs using Python and FastAPI for scalable server-side services.</li>
+                                <li>Integrate PostgreSQL databases and handle complex CRUD operations efficiently with raw SQL &amp; ORMs.</li>
+                                <li>Developed Lead, User, Contracting, and Organisation modules for a client CRM application using Next.js.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item reveal-on-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">May 2025 — Jul 2025</div>
+                        <div class="card glass-card timeline-card">
+                            <div class="timeline-header">
+                                <h3 class="role">Backend Developer Intern</h3>
+                                <h4 class="company"><i class="fa-solid fa-building"></i> Wizi Technologies — Nagercoil</h4>
+                            </div>
+                            <ul class="timeline-bullets">
+                                <li>Built backend APIs following REST principles using Python and FastAPI.</li>
+                                <li>Integrated SQL databases and managed CRUD operations.</li>
+                                <li>Contributed to developing scalable, high-performance and efficient backend services.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 3 -->
+                    <div class="timeline-item reveal-on-scroll">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-date">May 2024 — Jun 2024</div>
+                        <div class="card glass-card timeline-card">
+                            <div class="timeline-header">
+                                <h3 class="role">Frontend Developer Intern</h3>
+                                <h4 class="company"><i class="fa-solid fa-building"></i> Feather Software — Nagercoil</h4>
+                            </div>
+                            <ul class="timeline-bullets">
+                                <li>Developed clean, responsive, and mobile-friendly web pages using HTML, CSS, and JavaScript.</li>
+                                <li>Created a portfolio site, university website, and login page as part of internal projects.</li>
+                                <li>Collaborated with design and development teams to enhance UI/UX and interface functionality.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <h2 class="section-title reveal-on-scroll">Featured Projects</h2>
+                
+                <!-- Project Filters -->
+                <div class="project-filters reveal-on-scroll">
+                    <button class="filter-btn active" data-filter="all">All Projects</button>
+                    <button class="filter-btn" data-filter="frontend">Frontend / Next.js</button>
+                    <button class="filter-btn" data-filter="backend">Backend / FastAPI</button>
+                </div>
+
+                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <div class="project-card reveal-on-scroll" data-category="frontend">
+                        <div class="project-card-inner">
+                            <div class="project-header">
+                                <div class="project-icon"><i class="fa-solid fa-qrcode"></i></div>
+                                <div class="project-category">Full-Stack / Next.js</div>
+                            </div>
+                            <h3 class="project-title">Dynamic Item Portal</h3>
+                            <p class="project-description">
+                                A comprehensive, full-stack Next.js admin portal with dynamic item records, auto-generated QR codes, and dynamic per-item layouts.
+                            </p>
+                            <ul class="project-bullets">
+                                <li>Built a full-stack Next.js admin portal with dynamic item records, auto-generated QR codes, and deployed on Render.</li>
+                                <li>Implemented JWT authentication with session handling and real-time Custom ID validation.</li>
+                                <li>Built a public Scan page with manual ID search and live QR camera scanning using html5-qrcode.</li>
+                                <li>Designed a 4-table PostgreSQL schema using Prisma ORM for fully dynamic per-item content structure.</li>
+                            </ul>
+                            <div class="project-tech-tags">
+                                <span>Next.js</span>
+                                <span>PostgreSQL</span>
+                                <span>Prisma</span>
+                                <span>JWT Auth</span>
+                                <span>QR Code</span>
+                                <span>Render</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/gokila-k" target="_blank" rel="noopener noreferrer" class="project-link"><i class="fa-brands fa-github"></i> Repository</a>
+                                <a href="#" class="project-link demo-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card reveal-on-scroll" data-category="backend">
+                        <div class="project-card-inner">
+                            <div class="project-header">
+                                <div class="project-icon"><i class="fa-solid fa-calendar-days"></i></div>
+                                <div class="project-category">API / Python</div>
+                            </div>
+                            <h3 class="project-title">Event Management System</h3>
+                            <p class="project-description">
+                                A scalable REST API backend designed to power event ticketing, bookings, user roles, and secure poster file uploads.
+                            </p>
+                            <ul class="project-bullets">
+                                <li>Managed core service logic for users, events, and tickets to handle robust creation, updates, and retrieval.</li>
+                                <li>Built fast APIs for event management, role permissions, and ticket booking.</li>
+                                <li>Developed secure functionality for event poster uploads with validation and error handling.</li>
+                                <li>Deployed the backend application on Render for hosting, accessibility, and auto-scaling.</li>
+                            </ul>
+                            <div class="project-tech-tags">
+                                <span>Python</span>
+                                <span>FastAPI</span>
+                                <span>PostgreSQL</span>
+                                <span>REST API</span>
+                                <span>File Upload</span>
+                                <span>Render</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/gokila-k" target="_blank" rel="noopener noreferrer" class="project-link"><i class="fa-brands fa-github"></i> Repository</a>
+                                <a href="#" class="project-link demo-link"><i class="fa-solid fa-arrow-up-right-from-square"></i> Live Demo</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <h2 class="section-title reveal-on-scroll">Skills &amp; Technologies</h2>
+                <div class="skills-grid">
+                    <!-- Category 1: Backend -->
+                    <div class="skills-category-card glass-card reveal-on-scroll">
+                        <div class="skills-category-header">
+                            <i class="fa-solid fa-server"></i>
+                            <h3>Backend</h3>
+                        </div>
+                        <div class="skills-badges">
+                            <div class="skill-badge"><span>Python</span></div>
+                            <div class="skill-badge"><span>FastAPI</span></div>
+                            <div class="skill-badge"><span>Node.js</span></div>
+                            <div class="skill-badge"><span>REST API</span></div>
+                            <div class="skill-badge"><span>JWT Auth</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Category 2: Frontend -->
+                    <div class="skills-category-card glass-card reveal-on-scroll">
+                        <div class="skills-category-header">
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="skills-badges">
+                            <div class="skill-badge"><span>Next.js</span></div>
+                            <div class="skill-badge"><span>React</span></div>
+                            <div class="skill-badge"><span>HTML5 / CSS3</span></div>
+                            <div class="skill-badge"><span>JavaScript (ES6+)</span></div>
+                            <div class="skill-badge"><span>QR Code integration</span></div>
+                            <div class="skill-badge"><span>html5-qrcode</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Category 3: Database -->
+                    <div class="skills-category-card glass-card reveal-on-scroll">
+                        <div class="skills-category-header">
+                            <i class="fa-solid fa-database"></i>
+                            <h3>Database</h3>
+                        </div>
+                        <div class="skills-badges">
+                            <div class="skill-badge"><span>PostgreSQL</span></div>
+                            <div class="skill-badge"><span>SQL</span></div>
+                            <div class="skill-badge"><span>Prisma ORM</span></div>
+                            <div class="skill-badge"><span>Relational Schema Design</span></div>
+                        </div>
+                    </div>
+
+                    <!-- Category 4: Tools & Deployment -->
+                    <div class="skills-category-card glass-card reveal-on-scroll">
+                        <div class="skills-category-header">
+                            <i class="fa-solid fa-screwdriver-wrench"></i>
+                            <h3>Tools &amp; DevOps</h3>
+                        </div>
+                        <div class="skills-badges">
+                            <div class="skill-badge"><span>Git / GitHub</span></div>
+                            <div class="skill-badge"><span>Docker (basic)</span></div>
+                            <div class="skill-badge"><span>Render</span></div>
+                            <div class="skill-badge"><span>AWS (S3, Lightsail, IAM)</span></div>
+                            <div class="skill-badge"><span>DBeaver</span></div>
+                            <div class="skill-badge"><span>Playwright</span></div>
+                            <div class="skill-badge"><span>JobCron</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications-section section-padding">
+            <div class="container">
+                <h2 class="section-title reveal-on-scroll">Certifications</h2>
+                <div class="certifications-grid">
+                    <!-- Cert 1 -->
+                    <div class="certification-card glass-card reveal-on-scroll">
+                        <div class="cert-icon-container"><i class="fa-solid fa-certificate"></i></div>
+                        <div class="cert-details">
+                            <h3>Python, SQL, and Git &amp; GitHub Bootcamp</h3>
+                            <p class="cert-issuer">LetsUpgrade, 2025</p>
+                        </div>
+                    </div>
+
+                    <!-- Cert 2 -->
+                    <div class="certification-card glass-card reveal-on-scroll">
+                        <div class="cert-icon-container"><i class="fa-solid fa-award"></i></div>
+                        <div class="cert-details">
+                            <h3>AI Fluency Framework &amp; Foundations</h3>
+                            <p class="cert-issuer">Anthropic</p>
+                        </div>
+                    </div>
+
+                    <!-- Cert 3 -->
+                    <div class="certification-card glass-card reveal-on-scroll">
+                        <div class="cert-icon-container"><i class="fa-solid fa-award"></i></div>
+                        <div class="cert-details">
+                            <h3>Claude 101 Certification</h3>
+                            <p class="cert-issuer">Anthropic</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+        <!-- Collaborate Section -->
+        <section id="collaborate" class="collaborate-section section-padding">
+            <div class="container">
+                <h2 class="section-title reveal-on-scroll">Let's Collaborate</h2>
+                <p class="section-desc reveal-on-scroll">
+                    I am open to full-time roles, internships, or technical collaborations. 
+                    Feel free to reach out directly through any of these platforms!
+                </p>
+                <div class="collaborate-grid reveal-on-scroll">
+                    <a href="mailto:gokilakannan2003@gmail.com" class="collaborate-card glass-card">
+                        <div class="collab-icon-box"><i class="fa-solid fa-envelope"></i></div>
+                        <h3>Email Me</h3>
+                        <p class="collab-value">gokilakannan2003@gmail.com</p>
+                        <span class="collab-action">Send an Email <i class="fa-solid fa-arrow-right"></i></span>
+                    </a>
+                    
+                    <a href="tel:+917904723732" class="collaborate-card glass-card">
+                        <div class="collab-icon-box"><i class="fa-solid fa-phone"></i></div>
+                        <h3>Call Me</h3>
+                        <p class="collab-value">+91 7904723732</p>
+                        <span class="collab-action">Call / WhatsApp <i class="fa-solid fa-arrow-right"></i></span>
+                    </a>
+
+                    <a href="https://linkedin.com/in/gokila-k" target="_blank" rel="noopener noreferrer" class="collaborate-card glass-card">
+                        <div class="collab-icon-box"><i class="fa-brands fa-linkedin-in"></i></div>
+                        <h3>LinkedIn</h3>
+                        <p class="collab-value">linkedin.com/in/gokila-k</p>
+                        <span class="collab-action">Connect on LinkedIn <i class="fa-solid fa-arrow-right"></i></span>
+                    </a>
+
+                    <a href="https://github.com/gokila-k" target="_blank" rel="noopener noreferrer" class="collaborate-card glass-card">
+                        <div class="collab-icon-box"><i class="fa-brands fa-github"></i></div>
+                        <h3>GitHub</h3>
+                        <p class="collab-value">github.com/gokila-k</p>
+                        <span class="collab-action">View Repositories <i class="fa-solid fa-arrow-right"></i></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container footer-container">
+            <div class="footer-info">
+                <p class="copyright">&copy; 2026 Gokila K. All rights reserved.</p>
+                <p class="tagline">Built with <i class="fa-solid fa-heart accent-text"></i> and Vanilla Tech.</p>
+            </div>
+            <div class="footer-contacts">
+                <a href="mailto:gokilakannan2003@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i> gokilakannan2003@gmail.com</a>
+                <a href="tel:+917904723732" title="Phone"><i class="fa-solid fa-phone"></i> +91 7904723732</a>
+                <div class="footer-socials">
+                    <a href="https://github.com/gokila-k" target="_blank" rel="noopener noreferrer" title="GitHub" class="social-icon-mini"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://linkedin.com/in/gokila-k" target="_blank" rel="noopener noreferrer" title="LinkedIn" class="social-icon-mini"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to top Button -->
+    <button id="back-to-top" class="back-to-top-btn" aria-label="Scroll to top">
+        <i class="fa-solid fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
